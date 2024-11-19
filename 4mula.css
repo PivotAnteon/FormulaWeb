@@ -1,0 +1,28 @@
+.nav {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: red;
+    margin:0;
+    padding: 0;
+}
+.nav li {
+    float: left;
+    width:calc(100%/4);
+    padding: 0 10px;
+    background-color: red;
+    box-sizing: border-box;
+}
+.nav li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    transition: background-color .25s, color .25s, transform .25s;
+    box-sizing: border-box;
+}
+.nav li a:hover {
+    background-color: white;
+    color: red;
+    transform: scale(1.2);
+}
